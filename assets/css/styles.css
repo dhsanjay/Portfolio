@@ -40,7 +40,7 @@
   z-index: 1000;
 }
 .whatsapp-button img {
-  width: 50px;
+  width: auto;
   height: 50px;
 }
 /*===== BASE =====*/
