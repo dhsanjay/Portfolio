@@ -366,7 +366,7 @@ img {
 /* ===== FOOTER =====*/
 .footer {
   background-image: url('assets/img/logo/Whitecontours.png');
-  background-size: cover; /* Or use 'contain' or any other value based on your need */
+  background-size: contain; /* Or use 'contain' or any other value based on your need */
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--second-color); /* Fallback color if image fails to load */
