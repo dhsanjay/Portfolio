@@ -33,7 +33,16 @@
     --smaller-font-size: .875rem;
   }
 }
-
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+.whatsapp-button img {
+  width: 50px;
+  height: 50px;
+}
 /*===== BASE =====*/
 *, ::before, ::after {
   box-sizing: border-box;
@@ -355,6 +364,7 @@ img {
 
 /* ===== FOOTER =====*/
 .footer {
+  background-image: url(assets\img\logo\Whitecontours.png);
   background-color: var(--second-color);
   color: #fff;
   text-align: center;
