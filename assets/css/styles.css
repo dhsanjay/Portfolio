@@ -274,6 +274,7 @@ img {
 .skills__container {
   row-gap: 2rem;
   text-align: center;
+  background-image: url('assets/img/work1.jpg');
 }
 .skills__subtitle {
   margin-bottom: var(--mb-2);
@@ -509,3 +510,32 @@ img {
     width: 450px;
   }
 }
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-inner {
+  display: flex;
+  width: calc(400px * 5); /* 480px (width of each image) * number of images */
+  animation: scroll 10s linear infinite;
+}
+
+.carousel-item {
+  min-width: 400px; /* Width of each image */
+  box-sizing: border-box;
+}
+
+.carousel-item img {
+  width: 400px; /* Match the width of the image */
+  height: 200px; /* Match the height of the image */
+  display: block;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+
