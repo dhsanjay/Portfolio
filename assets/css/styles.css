@@ -364,7 +364,10 @@ img {
 
 /* ===== FOOTER =====*/
 .footer {
-  background-image: url(assets\img\logo\Whitecontours.png);
+  background-image: url(https://commons.wikimedia.org/wiki/File:QGIS_logo,_2017.svg);
+  background-size: cover; /* Or use 'contain' or any other value based on your need */
+  background-repeat: no-repeat;
+  background-position: center;
   background-color: var(--second-color);
   color: #fff;
   text-align: center;
