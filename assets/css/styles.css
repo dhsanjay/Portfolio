@@ -7,8 +7,8 @@
   /*===== Colores =====*/
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
-  --hue-color: 224;
-  --first-color: hsl(var(--hue-color), 89%, 60%);
+  --hue-color: 204;
+  --first-color: hsl(var(--hue-color), 71%, 41%);
   --second-color: hsl(var(--hue-color), 56%, 12%);
   /*===== Fuente y tipografia =====*/
   --body-font: "Poppins", sans-serif;
@@ -365,11 +365,7 @@ img {
 
 /* ===== FOOTER =====*/
 .footer {
-  background-image: url('assets/img/logo/Whitecontours.png');
-  background-size: contain; /* Or use 'contain' or any other value based on your need */
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: var(--second-color); /* Fallback color if image fails to load */
+  background-color: var(--second-color);
   color: #fff;
   text-align: center;
   font-weight: var(--font-semi);
